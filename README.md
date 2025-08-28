@@ -2,11 +2,13 @@
 Quaternions and Euler angles converter
 
 
-Usage:
-
+#Usage:
+numpy:
 python -m pip install numpy
-# graphs:
+
+graphs:
 python -m pip install matplotlib
 
+run:
 python convert_camm_orientation.py --input camm.json --output orientation_camm.csv --unwrap-yaw
 
